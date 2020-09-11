@@ -15,3 +15,13 @@
 - összegzés metódus létrehozása
 - összegzés tétele a tömbön
 - eredmény kiírása a console-ra
+
+## Megszámolás
+- Megszamolas() metódus létrehozása
+- Mennyi 3-al osztható elem van a tömbben
+- eredmény kiírása a console-ra
+
+## Eldöntés
+- Eldontes() metódus lértehozása
+- Van-e a tömbben 69? 
+- Kiírni: "van" / "nincs"
