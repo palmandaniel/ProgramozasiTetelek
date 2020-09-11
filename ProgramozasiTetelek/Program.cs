@@ -71,12 +71,35 @@ namespace ProgramozasiTetelek
 
             }
         }
+
+        static void Kivalasztas()
+        {
+            //int index = 0;
+            //for (int i = 0; i < tomb.Length; i++)
+            //{
+            //    if (tomb[i]==50)
+            //    {
+            //        index = i;
+            //    }
+            //}
+            //Console.WriteLine("Az 50 a {0}. indexű elem, a {1}. helyen áll a tömbben",index, index+1);
+
+            int j = 0;
+            while (j<tomb.Length && tomb[j]!=50)
+            {
+                j++;
+            }
+            Console.WriteLine("Az 50 a {0}. indexű elem, a {1}. helyen áll a tömbben", j, j+1);
+            Console.WriteLine("------------------------------------------");
+
+        }
         static void Main(string[] args)
         {
             TombKiiras();
             Osszegzes();
             Megszamlalas();
             Eldontes();
+            Kivalasztas();
 
             Console.ReadKey();
         }

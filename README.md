@@ -25,3 +25,8 @@
 - Eldontes() metódus lértehozása
 - Van-e a tömbben 69? 
 - Kiírni: "van" / "nincs"
+
+## Kiválasztás
+- Kivalasztas() metódus 
+- Hányadik az 50?
+- Kiírni a helyét a tömbben
