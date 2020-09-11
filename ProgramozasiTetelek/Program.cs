@@ -93,6 +93,31 @@ namespace ProgramozasiTetelek
             Console.WriteLine("------------------------------------------");
 
         }
+
+        static void Kereses()
+        {
+            int j = 0;
+            while (j < tomb.Length && tomb[j] != 50)
+            {
+                j++;
+            }
+            
+            Console.WriteLine("Az 50 a {0}. indexű elem, a {1}. helyen áll a tömbben", j, j + 1);
+            Console.WriteLine("------------------------------------------");
+        }
+
+        static void max()
+        {
+            int max = 0;
+            for (int i = 1; i < tomb.Length; i++)
+            {
+                if (max>tomb[i])
+                {
+                    max = tomb[i];
+                }
+            }
+            Console.WriteLine("Tömb legnagyobb eleme {0}", max);
+        }
         static void Main(string[] args)
         {
             TombKiiras();
@@ -100,7 +125,8 @@ namespace ProgramozasiTetelek
             Megszamlalas();
             Eldontes();
             Kivalasztas();
-
+            Kereses();
+            max();
             Console.ReadKey();
         }
     }

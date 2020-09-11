@@ -30,3 +30,11 @@
 - Kivalasztas() metódus 
 - Hányadik az 50?
 - Kiírni a helyét a tömbben
+
+## Keresés
+- Kereses() metódus
+- van-e benne 50, és ha van, hányadik?
+
+## Max
+- Max() metódus megkeresése
+- kiírni a tömb legnagyobb elemét
