@@ -9,5 +9,9 @@
 - TombKiiras() metódus létrehozása
     -nem ad vissza értéket
     -nincs paramétere
-    -a tömb elemeit vesszõvel elválasztva a konzolra írja
+    -a tömb elemeit vesszõvel elválasztva a console-ra írja
 
+## Összegzés
+- összegzés metódus létrehozása
+- összegzés tétele a tömbön
+- eredmény kiírása a console-ra
